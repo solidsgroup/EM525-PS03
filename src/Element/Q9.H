@@ -37,15 +37,15 @@ private:
     //
 
     const std::array<Eigen::Vector2d,9> Y0 = {
-        Eigen::Vector2d(0.0,0.0),
-        Eigen::Vector2d(0.5,0.0),
-        Eigen::Vector2d(1.0,0.0),
-        Eigen::Vector2d(1.0,0.5),
-        Eigen::Vector2d(1.0,1.0),
-        Eigen::Vector2d(0.5,1.0),
-        Eigen::Vector2d(0.0,1.0),
-        Eigen::Vector2d(0.0,0.5),
-        Eigen::Vector2d(0.5,0.5),
+        Eigen::Vector2d(-1.0,-1.0),
+        Eigen::Vector2d( 0.0,-1.0),
+        Eigen::Vector2d( 1.0,-1.0),
+        Eigen::Vector2d( 1.0, 0.0),
+        Eigen::Vector2d( 1.0, 1.0),
+        Eigen::Vector2d( 0.0, 1.0),
+        Eigen::Vector2d(-1.0, 1.0),
+        Eigen::Vector2d(-1.0, 0.0),
+        Eigen::Vector2d( 0.0, 0.0),
     };
 };
 
